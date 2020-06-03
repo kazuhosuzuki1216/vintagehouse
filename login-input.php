@@ -1,14 +1,16 @@
 <?php require 'header.php' ;?>
-<div class="loginPage">
+<div class="loginInputPage">
   <div class="container">
     <h2>ログイン</h2>
     <div class="forms">
       <div class="loginForm">
         <h3>ログイン</h3>
-        <form action="">
+        <form action="login-output.php">
           <input type="text" placeholder="メールアドレス">
           <input type="passsword" placeholder="パスワード">
-          <input type="submit" value="ログイン" class="btn">
+          <div class="btnHover btnBefore">
+            <input type="submit" value="ログイン" class="btn">
+          </div>
         </form>
       </div>
       <div class="registerForm">
@@ -18,7 +20,9 @@
           <input type="text" placeholder="住所">
           <input type="text" placeholder="メールアドレス">
           <input type="password" placeholder="パスワード(英数字8文字以上)">
-          <input type="submit" value="会員登録" class="btn">
+          <div class="btnHover btnBefore btnAfter">
+            <input type="submit" value="会員登録" class="btn">
+          </div>
         </form>
       </div>
     </div>
