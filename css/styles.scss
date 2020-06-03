@@ -264,3 +264,75 @@ footer{
     height: 100vh;
   }
 }
+
+// use-input-page
+.userInputPage{
+  .container{
+    height: 100vh;
+    h2{
+      font-size: 32px;
+      text-align: center;
+      margin-top: 64px;
+    }
+    form{
+      margin: 48px 0;
+      .textArea{
+        display: flex;
+        width: 360px;
+        justify-content: space-between;
+        margin: 0 auto;
+        p{
+
+        }
+        input{
+          margin-bottom: 12px;
+          padding: 5px;
+          width: 220px;
+          height: 32px;
+          border: 1px solid  #bbb;
+          border-radius: 4px;
+          margin-left: 24px;
+        }
+      }
+      .btn{
+        margin: 0 auto;
+        font-weight: bold;
+        background: #87cec6;
+        color: #f9fbfe;;
+        border: none;
+        height: 48px;
+        margin-top: 40px;
+        margin-bottom: 12px;
+        padding: 5px;
+        width: 220px;
+        border-radius: 4px;
+          
+      }
+      .btnHover{
+        position: relative;
+        width: 230px;
+        margin: 0 auto;
+        :hover{
+          opacity: 0.6;
+        }
+      }
+      .btnBefore:before{
+        position: absolute;
+        content: 'パスワードは英数字8文字以上で入力してください';
+        font-size: 10px;
+        top:-30px;
+        color: #b93823;
+      }
+      
+    }
+  }
+}
+
+// user-output-page
+.userOutputPage{
+  div{
+    margin-top: 64px;
+    text-align: center;
+    height: 100vh;
+  }
+}

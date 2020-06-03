@@ -306,4 +306,77 @@ footer .container {
   text-align: center;
   height: 100vh;
 }
+
+.userInputPage .container {
+  height: 100vh;
+}
+
+.userInputPage .container h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 64px;
+}
+
+.userInputPage .container form {
+  margin: 48px 0;
+}
+
+.userInputPage .container form .textArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 360px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+.userInputPage .container form .textArea input {
+  margin-bottom: 12px;
+  padding: 5px;
+  width: 220px;
+  height: 32px;
+  border: 1px solid  #bbb;
+  border-radius: 4px;
+  margin-left: 24px;
+}
+
+.userInputPage .container form .btn {
+  margin: 0 auto;
+  font-weight: bold;
+  background: #87cec6;
+  color: #f9fbfe;
+  border: none;
+  height: 48px;
+  margin-top: 40px;
+  margin-bottom: 12px;
+  padding: 5px;
+  width: 220px;
+  border-radius: 4px;
+}
+
+.userInputPage .container form .btnHover {
+  position: relative;
+  width: 230px;
+  margin: 0 auto;
+}
+
+.userInputPage .container form .btnHover :hover {
+  opacity: 0.6;
+}
+
+.userInputPage .container form .btnBefore:before {
+  position: absolute;
+  content: 'パスワードは英数字8文字以上で入力してください';
+  font-size: 10px;
+  top: -30px;
+  color: #b93823;
+}
+
+.userOutputPage div {
+  margin-top: 64px;
+  text-align: center;
+  height: 100vh;
+}
 /*# sourceMappingURL=styles.css.map */
