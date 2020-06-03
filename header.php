@@ -20,7 +20,7 @@
     <ul>
       <li class="logIn"><a href="login-input.php">ログイン</a></li>
       <!-- <li class="logOut"><a href="">ログアウト</a></li> -->
-      <li><a href=""><img src="img/user.png" alt="ユーザー"></a></li>
+      <li><a href="user-input.php"><img src="img/user.png" alt="ユーザー"></a></li>
       <li><a href=""><img src="img/hart.png" alt="ハート"></a></li>
       <li><a href=""><img src="img/cart.png" alt="カート"></a></li>
     </ul>
