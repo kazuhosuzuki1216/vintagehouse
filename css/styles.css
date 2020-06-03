@@ -1,0 +1,261 @@
+body {
+  font-size: 16px;
+  color: #5b5b60;
+  background-color: #f9fbfe;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #5b5b60;
+}
+
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a :hover {
+  opacity: 0.6;
+}
+
+input {
+  display: block;
+  background: #f9fbfe;
+  border: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input ::-webkit-input-placeholder {
+  color: red;
+}
+
+input :-ms-input-placeholder {
+  color: red;
+}
+
+input ::-ms-input-placeholder {
+  color: red;
+}
+
+input ::placeholder {
+  color: red;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background: #151515;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1024px;
+  margin: 0 auto;
+  height: 88px;
+  line-height: 88px;
+}
+
+header .container h1 a {
+  color: #f0f0f0;
+}
+
+header .container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 280px;
+}
+
+header .container form input {
+  position: relative;
+  top: 32px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 5px;
+  height: 24px;
+  border-radius: 5px 0 0 5px;
+}
+
+header .container form .submitBtn {
+  border-left: #151515 1px solid;
+  font-weight: bold;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+header .container ul {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .container ul li {
+  padding-left: 30px;
+}
+
+header .container ul li a {
+  color: #f0f0f0;
+  font-weight: bold;
+}
+
+header .container ul li a img {
+  height: 30px;
+  position: relative;
+  top: 10px;
+}
+
+header .container ul .logIn {
+  padding-left: 46px !important;
+}
+
+header .container ul .logOut {
+  padding-left: 30px;
+}
+
+.topVisual {
+  background: url(../img/main-visual.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 680px;
+}
+
+.mainContent .container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.mainContent .container h2 {
+  font-size: 32px;
+  text-align: center;
+  padding: 128px 0 64px 0;
+}
+
+.mainContent .container .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.mainContent .container .items .item a {
+  color: #5b5b60;
+}
+
+.mainContent .container .items .item a img {
+  width: 256px;
+}
+
+.mainContent .container .items .item .itemName {
+  padding-left: 12px;
+  margin-top: 12px;
+}
+
+.mainContent .container .items .item .itemPrice {
+  padding-left: 12px;
+  margin-bottom: 48px;
+}
+
+footer .container {
+  height: 88px;
+  font-size: 12px;
+  line-height: 88px;
+  text-align: center;
+  background: #151515;
+  color: #f0f0f0;
+  margin-top: 80px;
+}
+
+.loginPage .container h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 64px;
+}
+
+.loginPage .container .forms {
+  width: 624px;
+  margin: 48px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.loginPage .container .forms .loginForm {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid  #bbb;
+  border-radius: 4px;
+  width: 300px;
+  height: 450px;
+  margin-right: 12px;
+  padding: 40px;
+}
+
+.loginPage .container .forms .loginForm h3 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.loginPage .container .forms .loginForm form input {
+  margin-bottom: 12px;
+  padding: 5px;
+  width: 220px;
+  height: 48px;
+  border: 1px solid  #bbb;
+  border-radius: 4px;
+}
+
+.loginPage .container .forms .loginForm form .btn {
+  font-weight: bold;
+  background: #87cec6;
+  color: #f9fbfe;
+  border: none;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.loginPage .container .forms .registerForm {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid  #bbb;
+  border-radius: 4px;
+  width: 300px;
+  height: 450px;
+  margin-left: 12px;
+  padding: 40px;
+}
+
+.loginPage .container .forms .registerForm h3 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.loginPage .container .forms .registerForm form input {
+  margin-bottom: 12px;
+  padding: 5px;
+  width: 220px;
+  height: 48px;
+  border: 1px solid  #bbb;
+  border-radius: 4px;
+}
+
+.loginPage .container .forms .registerForm form .btn {
+  font-weight: bold;
+  background: #87cec6;
+  color: #f9fbfe;
+  border: none;
+  margin-top: 40px;
+}
+/*# sourceMappingURL=styles.css.map */

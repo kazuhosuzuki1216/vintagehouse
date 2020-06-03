@@ -1,0 +1,223 @@
+body{
+  font-size: 16px;
+  color: #5b5b60;
+  background-color: #f9fbfe;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #5b5b60;
+}
+
+
+body,h1,h2,h3,p,ul{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 36px;  
+}
+
+a{
+  text-decoration: none;
+  :hover{
+    opacity: 0.6;
+  }
+}
+
+input{
+  display: block;
+  background: #f9fbfe;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  ::placeholder{
+    color: red;
+  }
+}
+
+ul{
+  list-style: none;
+}
+
+header{
+  background: #151515;
+  .container{
+    display: flex;
+    width: 1024px;
+    margin: 0 auto;
+    height: 88px;
+    line-height: 88px;
+    h1{
+      a{
+        color: #f0f0f0;
+      }
+    }
+    form{
+      display: flex;
+      padding-left: 280px;
+      input{
+        position: relative;
+        top: 32px;
+        box-sizing: border-box;
+        padding: 0 5px;
+        height: 24px;
+        border-radius: 5px 0 0 5px;
+      }
+      .submitBtn{
+        border-left: #151515 1px solid;
+        font-weight: bold;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+      }
+    }
+    ul{
+      float: right;
+      display: flex;
+      li{
+        padding-left: 30px;
+        a{
+          color: #f0f0f0;
+          font-weight: bold;
+          img{
+            height: 30px;
+            position: relative;
+            top: 10px;
+          }
+        }
+      }
+      .logIn{
+        padding-left: 46px!important;
+      }
+      .logOut{
+        padding-left: 30px;
+      }
+    }
+  }
+}
+
+.topVisual{
+  background: url(../img/main-visual.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 680px;
+}
+
+.mainContent{
+  .container{
+    width: 1024px;
+    margin: 0 auto;
+    h2{
+      font-size: 32px;
+      text-align: center;
+      padding: 128px 0 64px 0;
+    }
+    .items{
+      display: flex;
+      flex-wrap: wrap;
+      .item{
+        a{
+          color: #5b5b60;
+          img{
+            width: 256px;
+          }
+        }
+        .itemName{
+          padding-left: 12px;
+          margin-top: 12px;
+        }
+        .itemPrice{
+          padding-left: 12px;
+          margin-bottom: 48px ;
+        }
+      }
+    }
+  }
+}
+
+footer{
+  .container{
+    height: 88px;
+    font-size: 12px;
+    line-height: 88px;
+    text-align: center;
+    background: #151515;
+    color: #f0f0f0;
+    margin-top: 80px;
+  }
+}
+
+// loginpage
+.loginPage{
+  .container{
+    h2{
+      font-size: 32px;
+      text-align: center;
+      margin-top: 64px;
+    }
+    .forms{
+      width: 624px;
+      margin: 48px auto;
+      display: flex;
+      .loginForm{
+        box-sizing: border-box;
+        border: 1px solid  #bbb;
+        border-radius: 4px;
+        width: 300px;
+        height: 450px;
+        margin-right: 12px;
+        padding: 40px;
+        h3{
+          font-size: 20px;
+          margin-bottom: 16px;
+        }
+        form{
+          input{
+            margin-bottom: 12px;
+            padding: 5px;
+            width: 220px;
+            height: 48px;
+            border: 1px solid  #bbb;
+            border-radius: 4px;
+          }
+          .btn{
+            font-weight: bold;
+            background: #87cec6;
+            color: #f9fbfe;;
+            border: none;
+            margin-top: 40px;
+            cursor: pointer;
+          }
+        }
+      }
+      .registerForm{
+        box-sizing: border-box;
+        border: 1px solid  #bbb;
+        border-radius: 4px;
+        width: 300px;
+        height: 450px;
+        margin-left: 12px;
+        padding: 40px;
+        h3{
+          font-size: 20px;
+          margin-bottom: 16px;
+        }
+        form{
+          input{
+            margin-bottom: 12px;
+            padding: 5px;
+            width: 220px;
+            height: 48px;
+            border: 1px solid  #bbb;
+            border-radius: 4px;
+          }
+          .btn{
+            font-weight: bold;
+            background: #87cec6;
+            color: #f9fbfe;;
+            border: none;
+            margin-top: 40px;
+          }
+        }
+      }
+    }
+  }
+}
