@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-size: 16px;
   color: #5b5b60;
@@ -178,13 +179,13 @@ footer .container {
   margin-top: 80px;
 }
 
-.loginPage .container h2 {
+.loginInputPage .container h2 {
   font-size: 32px;
   text-align: center;
   margin-top: 64px;
 }
 
-.loginPage .container .forms {
+.loginInputPage .container .forms {
   width: 624px;
   margin: 48px auto;
   display: -webkit-box;
@@ -192,7 +193,7 @@ footer .container {
   display: flex;
 }
 
-.loginPage .container .forms .loginForm {
+.loginInputPage .container .forms .loginForm {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 1px solid  #bbb;
@@ -203,12 +204,12 @@ footer .container {
   padding: 40px;
 }
 
-.loginPage .container .forms .loginForm h3 {
+.loginInputPage .container .forms .loginForm h3 {
   font-size: 20px;
   margin-bottom: 16px;
 }
 
-.loginPage .container .forms .loginForm form input {
+.loginInputPage .container .forms .loginForm form input {
   margin-bottom: 12px;
   padding: 5px;
   width: 220px;
@@ -217,16 +218,32 @@ footer .container {
   border-radius: 4px;
 }
 
-.loginPage .container .forms .loginForm form .btn {
-  font-weight: bold;
+.loginInputPage .container .forms .loginForm form .btnHover {
+  position: relative;
+}
+
+.loginInputPage .container .forms .loginForm form .btnHover :hover {
+  opacity: 0.6;
+}
+
+.loginInputPage .container .forms .loginForm form .btnBefore:before {
+  position: absolute;
+  content: 'メールアドレスがまたはパスワードが違います';
+  font-size: 10px;
+  top: -30px;
+  color: #b93823;
+}
+
+.loginInputPage .container .forms .loginForm form .btn {
   background: #87cec6;
+  font-weight: bold;
   color: #f9fbfe;
   border: none;
   margin-top: 40px;
   cursor: pointer;
 }
 
-.loginPage .container .forms .registerForm {
+.loginInputPage .container .forms .registerForm {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 1px solid  #bbb;
@@ -237,12 +254,12 @@ footer .container {
   padding: 40px;
 }
 
-.loginPage .container .forms .registerForm h3 {
+.loginInputPage .container .forms .registerForm h3 {
   font-size: 20px;
   margin-bottom: 16px;
 }
 
-.loginPage .container .forms .registerForm form input {
+.loginInputPage .container .forms .registerForm form input {
   margin-bottom: 12px;
   padding: 5px;
   width: 220px;
@@ -251,11 +268,42 @@ footer .container {
   border-radius: 4px;
 }
 
-.loginPage .container .forms .registerForm form .btn {
+.loginInputPage .container .forms .registerForm form .btnHover {
+  position: relative;
+}
+
+.loginInputPage .container .forms .registerForm form .btnHover :hover {
+  opacity: 0.6;
+}
+
+.loginInputPage .container .forms .registerForm form .btnBefore:before {
+  position: absolute;
+  content: 'パスワードは英数字8文字以上で入力してください';
+  font-size: 10px;
+  top: -30px;
+  color: #b93823;
+  display: none;
+}
+
+.loginInputPage .container .forms .registerForm form .btnAfter:after {
+  position: absolute;
+  content: 'メールアドレスを正しく入力してください';
+  font-size: 10px;
+  top: -30px;
+  color: #b93823;
+}
+
+.loginInputPage .container .forms .registerForm form .btn {
   font-weight: bold;
   background: #87cec6;
   color: #f9fbfe;
   border: none;
   margin-top: 40px;
+}
+
+.loginOutputPage div {
+  margin-top: 64px;
+  text-align: center;
+  height: 100vh;
 }
 /*# sourceMappingURL=styles.css.map */

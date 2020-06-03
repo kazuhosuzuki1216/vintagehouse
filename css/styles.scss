@@ -145,8 +145,8 @@ footer{
   }
 }
 
-// loginpage
-.loginPage{
+// login-input-page
+.loginInputPage{
   .container{
     h2{
       font-size: 32px;
@@ -178,10 +178,23 @@ footer{
             border: 1px solid  #bbb;
             border-radius: 4px;
           }
+          .btnHover{
+            position: relative;
+            :hover{
+              opacity: 0.6;
+            }
+          }
+          .btnBefore:before{
+            position: absolute;
+            content: 'メールアドレスがまたはパスワードが違います';
+            font-size: 10px;
+            top:-30px;
+            color: #b93823;
+          }
           .btn{
-            font-weight: bold;
             background: #87cec6;
-            color: #f9fbfe;;
+            font-weight: bold;
+            color: #f9fbfe;
             border: none;
             margin-top: 40px;
             cursor: pointer;
@@ -209,6 +222,27 @@ footer{
             border: 1px solid  #bbb;
             border-radius: 4px;
           }
+          .btnHover{
+            position: relative;
+            :hover{
+              opacity: 0.6;
+            }
+          }
+          .btnBefore:before{
+            position: absolute;
+            content: 'パスワードは英数字8文字以上で入力してください';
+            font-size: 10px;
+            top:-30px;
+            color: #b93823;
+            display: none;
+          }
+          .btnAfter:after{
+            position: absolute;
+            content: 'メールアドレスを正しく入力してください';
+            font-size: 10px;
+            top:-30px;
+            color: #b93823;
+          }
           .btn{
             font-weight: bold;
             background: #87cec6;
@@ -219,5 +253,14 @@ footer{
         }
       }
     }
+  }
+}
+
+// login-output-page
+.loginOutputPage{
+  div{
+    margin-top: 64px;
+    text-align: center;
+    height: 100vh;
   }
 }
