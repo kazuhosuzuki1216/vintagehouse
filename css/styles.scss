@@ -344,6 +344,7 @@ footer{
   padding-top: 48px;
 }
 .favoritePage{
+  height: 100vh;
   .container{
     h2{
       font-size: 32px;
@@ -359,10 +360,11 @@ footer{
         }
         th{
           padding-bottom: 8px;
-          text-align: left;
+          text-align: center;
           width: 100px;
         }
         td{
+          text-align: center;
           a{
             color: #5b5b60;
             text-decoration: underline;
@@ -375,6 +377,74 @@ footer{
             color: #3037c5;
             text-decoration: underline;
           }
+        }
+      }
+    }
+  }
+}
+
+// cart-page
+
+.addCartItem,.deleteCartItem{
+  text-align: center;
+  padding-top: 48px;
+}
+.cartPage{
+  height: 100vh;
+  .container{
+    h2{
+      font-size: 32px;
+      text-align: center;
+      margin-top: 64px;
+    }
+    table{
+      margin: 48px auto;
+      tr{
+        :first-child{
+          text-align: right;
+          margin-right: 8px;
+        }
+        th{
+          padding-bottom: 8px;
+          text-align: center;
+          width: 100px;
+        }
+        td{
+          text-align: center;
+          a{
+            color: #5b5b60;
+            text-decoration: underline;
+            img{
+              width: 60px;
+              text-align: right;
+            }
+          }
+          .delete{
+            color: #3037c5;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .btn{
+      a{
+        margin-right: auto;
+        margin-left: auto;
+        box-sizing: border-box;
+        display: block;
+        text-align: center;
+        line-height: 38px;
+        margin-bottom: 12px;
+        padding: 5px;
+        width: 220px;
+        height: 48px;
+        border-radius: 4px;
+        font-weight: bold;
+        background: #87cec6;
+        margin-top: 40px;
+        color: #f9fbfe;
+        &:hover{
+          opacity: 0.6;
         }
       }
     }

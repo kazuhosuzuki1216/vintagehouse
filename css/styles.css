@@ -385,6 +385,10 @@ footer .container {
   padding-top: 48px;
 }
 
+.favoritePage {
+  height: 100vh;
+}
+
 .favoritePage .container h2 {
   font-size: 32px;
   text-align: center;
@@ -402,8 +406,12 @@ footer .container {
 
 .favoritePage .container table tr th {
   padding-bottom: 8px;
-  text-align: left;
+  text-align: center;
   width: 100px;
+}
+
+.favoritePage .container table tr td {
+  text-align: center;
 }
 
 .favoritePage .container table tr td a {
@@ -419,5 +427,77 @@ footer .container {
 .favoritePage .container table tr td .delete {
   color: #3037c5;
   text-decoration: underline;
+}
+
+.addCartItem, .deleteCartItem {
+  text-align: center;
+  padding-top: 48px;
+}
+
+.cartPage {
+  height: 100vh;
+}
+
+.cartPage .container h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 64px;
+}
+
+.cartPage .container table {
+  margin: 48px auto;
+}
+
+.cartPage .container table tr :first-child {
+  text-align: right;
+  margin-right: 8px;
+}
+
+.cartPage .container table tr th {
+  padding-bottom: 8px;
+  text-align: center;
+  width: 100px;
+}
+
+.cartPage .container table tr td {
+  text-align: center;
+}
+
+.cartPage .container table tr td a {
+  color: #5b5b60;
+  text-decoration: underline;
+}
+
+.cartPage .container table tr td a img {
+  width: 60px;
+  text-align: right;
+}
+
+.cartPage .container table tr td .delete {
+  color: #3037c5;
+  text-decoration: underline;
+}
+
+.cartPage .container .btn a {
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  text-align: center;
+  line-height: 38px;
+  margin-bottom: 12px;
+  padding: 5px;
+  width: 220px;
+  height: 48px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #87cec6;
+  margin-top: 40px;
+  color: #f9fbfe;
+}
+
+.cartPage .container .btn a:hover {
+  opacity: 0.6;
 }
 /*# sourceMappingURL=styles.css.map */
