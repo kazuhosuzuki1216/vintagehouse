@@ -13,7 +13,7 @@
 <header>
   <div class="container">
     <h1><a href="index.php">VintageHouse</a></h1>
-    <form action="">
+    <form action="search.php">
       <input type="text">
       <input type="submit" name="" id="" value="検索" class="submitBtn">
     </form>

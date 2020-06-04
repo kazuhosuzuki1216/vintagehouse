@@ -509,4 +509,42 @@ footer .container {
   text-align: center;
   height: 100vh;
 }
+
+.seachPage .container {
+  height: 100vh;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.seachPage .container h2 {
+  font-size: 32px;
+  text-align: center;
+  padding: 64px 0 48px;
+}
+
+.seachPage .container .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.seachPage .container .items .item a {
+  color: #5b5b60;
+}
+
+.seachPage .container .items .item a img {
+  width: 256px;
+}
+
+.seachPage .container .items .item .itemName {
+  padding-left: 12px;
+  margin-top: 12px;
+}
+
+.seachPage .container .items .item .itemPrice {
+  padding-left: 12px;
+  margin-bottom: 48px;
+}
 /*# sourceMappingURL=styles.css.map */

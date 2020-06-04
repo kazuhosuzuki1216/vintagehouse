@@ -460,3 +460,38 @@ footer{
   text-align: center;
   height: 100vh;
 }
+
+
+// search-page
+.seachPage{
+  .container{
+    height: 100vh;
+    width: 1024px;
+    margin: 0 auto;
+    h2{
+      font-size: 32px;
+      text-align: center;
+      padding: 64px 0 48px;
+    }
+    .items{
+      display: flex;
+      flex-wrap: wrap;
+      .item{
+        a{
+          color: #5b5b60;
+          img{
+            width: 256px;
+          }
+        }
+        .itemName{
+          padding-left: 12px;
+          margin-top: 12px;
+        }
+        .itemPrice{
+          padding-left: 12px;
+          margin-bottom: 48px ;
+        }
+      }
+    }
+  }
+}
