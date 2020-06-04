@@ -55,6 +55,7 @@ ul {
 
 header {
   background: #151515;
+  min-width: 1024px;
 }
 
 header .container {
@@ -129,6 +130,7 @@ header .container ul .logOut {
   background: url(../img/main-visual.jpg) no-repeat;
   background-size: cover;
   width: 100%;
+  min-width: 1024px;
   height: 680px;
 }
 
@@ -177,6 +179,7 @@ footer .container {
   background: #151515;
   color: #f0f0f0;
   margin-top: 80px;
+  min-width: 1024px;
 }
 
 .loginInputPage .container h2 {
@@ -499,5 +502,11 @@ footer .container {
 
 .cartPage .container .btn a:hover {
   opacity: 0.6;
+}
+
+.purchasePage {
+  margin-top: 64px;
+  text-align: center;
+  height: 100vh;
 }
 /*# sourceMappingURL=styles.css.map */

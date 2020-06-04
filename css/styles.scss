@@ -40,6 +40,7 @@ ul{
 
 header{
   background: #151515;
+  min-width: 1024px;
   .container{
     display: flex;
     width: 1024px;
@@ -98,6 +99,7 @@ header{
   background: url(../img/main-visual.jpg) no-repeat;
   background-size: cover;
   width: 100%;
+  min-width: 1024px;
   height: 680px;
 }
 
@@ -142,6 +144,7 @@ footer{
     background: #151515;
     color: #f0f0f0;
     margin-top: 80px;
+    min-width: 1024px;
   }
 }
 
@@ -449,4 +452,11 @@ footer{
       }
     }
   }
+}
+
+// purchase-page
+.purchasePage{
+  margin-top: 64px;
+  text-align: center;
+  height: 100vh;
 }
