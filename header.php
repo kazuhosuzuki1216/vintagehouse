@@ -22,7 +22,7 @@
       <!-- <li class="logOut"><a href="">ログアウト</a></li> -->
       <li><a href="user-input.php"><img src="img/user.png" alt="ユーザー"></a></li>
       <li><a href="favorite-show.php"><img src="img/hart.png" alt="ハート"></a></li>
-      <li><a href=""><img src="img/cart.png" alt="カート"></a></li>
+      <li><a href="cart-show.php"><img src="img/cart.png" alt="カート"></a></li>
     </ul>
   </div>
 </header>
